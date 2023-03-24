@@ -33,7 +33,7 @@
 ## Part 4: Create the Crowdfunding Database
 - Create an ERD using QuickDBD. 
 - Create a table schema for each csv file.
-- Save the file as a Postgres file named crowdfunding_db_schema.sql.
+- Save the file as a Postgres file.
 - Create a new database called crowdfunding_db.
 - Create the tables in the correct order.
 - Run a select statment for each table to verify that the table was created.
@@ -98,6 +98,24 @@
 
 ## Part 2: Create the Campaign DataFrame
 
+- Renamed columns. 
+<img width="935" alt="Screenshot 2023-03-23 at 8 54 32 PM" src="https://user-images.githubusercontent.com/119909433/227404408-4facc9a1-1987-433e-8244-dd7f7b738e93.png">
+
+- Converted columns to "float" data types. 
+<img width="908" alt="Screenshot 2023-03-23 at 8 55 16 PM" src="https://user-images.githubusercontent.com/119909433/227404499-4791b657-d062-4a21-913b-98813054e736.png">
+
+- Converted columns to datetime format.
+<img width="916" alt="Screenshot 2023-03-23 at 8 55 49 PM" src="https://user-images.githubusercontent.com/119909433/227404547-d7529b35-cde0-4d34-b14d-45850cbe3686.png">
+
+- Merged the campaign, category, and subcategory DataFrames.
+<img width="927" alt="Screenshot 2023-03-23 at 8 56 22 PM" src="https://user-images.githubusercontent.com/119909433/227404607-89c02c09-a3f5-4a86-bcbd-9263ec2328a1.png">
+
+- Dropped unwanted columns. 
+<img width="1159" alt="Screenshot 2023-03-23 at 8 56 52 PM" src="https://user-images.githubusercontent.com/119909433/227404660-54ac5e9f-6408-4c4f-a73c-50424f33fa42.png">
+
+- Exported the DataFrame as a csv file.
+<img width="1150" alt="Screenshot 2023-03-23 at 8 57 16 PM" src="https://user-images.githubusercontent.com/119909433/227404717-9e64725c-a4d1-4541-a6d7-2f267645e025.png">
+
 ## Part 3: Create the Contacts DataFrame
 
 - Iterated through the contact_info_df and converted each row to a dictionary.
@@ -115,8 +133,20 @@
 - Exported the DataFrame as a csv file.
 <img width="1052" alt="Screenshot 2023-03-22 at 10 16 43 PM" src="https://user-images.githubusercontent.com/119909433/227092955-df1a07de-32ab-49fc-8edf-240f72b6ab5e.png">
 
-
 ## Part 4: Create the Crowdfunding Database
+- Created an ERD for the csv files. 
+<img width="721" alt="Screenshot 2023-03-23 at 8 58 06 PM" src="https://user-images.githubusercontent.com/119909433/227404815-64d93c23-ce2e-4c85-b080-1850d0cb3b28.png">
+
+- Exported the SQL file for the table schema and used it to create tables in SQL. 
+<img width="538" alt="Screenshot 2023-03-23 at 8 58 58 PM" src="https://user-images.githubusercontent.com/119909433/227404918-9d3f0f9f-a3d4-4dca-ac88-ceb644cf6335.png">
+<img width="769" alt="Screenshot 2023-03-23 at 8 59 32 PM" src="https://user-images.githubusercontent.com/119909433/227404986-d896421a-2e6c-4660-9d59-a20066324683.png">
+
+- Imported csv files and displayed tables.
+<img width="1098" alt="Screenshot 2023-03-23 at 8 33 39 PM" src="https://user-images.githubusercontent.com/119909433/227405196-ee36e274-84d7-41a8-a143-fecd6480d32a.png">
+<img width="1117" alt="Screenshot 2023-03-23 at 8 34 10 PM" src="https://user-images.githubusercontent.com/119909433/227405210-edd743e7-1515-4414-9b60-caff6475df11.png">
+<img width="1114" alt="Screenshot 2023-03-23 at 8 34 32 PM" src="https://user-images.githubusercontent.com/119909433/227405217-97a2bdeb-68b3-404a-b09d-c907a872457e.png">
+<img width="1108" alt="Screenshot 2023-03-23 at 8 34 52 PM" src="https://user-images.githubusercontent.com/119909433/227405226-b50c5f41-8bf3-4df2-9a8d-e52e9e0cf429.png">
+
 
 # Authors 
 - Brittany Wright github:brittanynicole7
